@@ -12,6 +12,13 @@
 		4CC4964620170A7800D5AEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4964420170A7800D5AEAA /* Main.storyboard */; };
 		4CC4964820170A7800D5AEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4964720170A7800D5AEAA /* Assets.xcassets */; };
 		4CC4964B20170A7800D5AEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4964920170A7800D5AEAA /* LaunchScreen.storyboard */; };
+		4CDDF8E1201829B3003CA339 /* BookmarksListFavoritesFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8E0201829B3003CA339 /* BookmarksListFavoritesFolder@2x.png */; };
+		4CDDF8E3201829C0003CA339 /* FindOnPage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8E2201829C0003CA339 /* FindOnPage@2x.png */; };
+		4CDDF8E5201829DC003CA339 /* BookmarksListFavoritesFolder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8E4201829DC003CA339 /* BookmarksListFavoritesFolder@3x.png */; };
+		4CDDF8E7201829EF003CA339 /* FindOnPage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8E6201829EF003CA339 /* FindOnPage@3x.png */; };
+		4CDDF8E920182ABA003CA339 /* BookmarksListFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8E820182ABA003CA339 /* BookmarksListFolder@2x.png */; };
+		4CDDF8EB20182AD1003CA339 /* BookmarksListFolder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF8EA20182AD1003CA339 /* BookmarksListFolder@3x.png */; };
+		4CDDF8ED201831FB003CA339 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF8EC201831FB003CA339 /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		4CC4964720170A7800D5AEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC4964A20170A7800D5AEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC4964C20170A7800D5AEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDDF8E0201829B3003CA339 /* BookmarksListFavoritesFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookmarksListFavoritesFolder@2x.png"; sourceTree = "<group>"; };
+		4CDDF8E2201829C0003CA339 /* FindOnPage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FindOnPage@2x.png"; sourceTree = "<group>"; };
+		4CDDF8E4201829DC003CA339 /* BookmarksListFavoritesFolder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookmarksListFavoritesFolder@3x.png"; sourceTree = "<group>"; };
+		4CDDF8E6201829EF003CA339 /* FindOnPage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FindOnPage@3x.png"; sourceTree = "<group>"; };
+		4CDDF8E820182ABA003CA339 /* BookmarksListFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookmarksListFolder@2x.png"; sourceTree = "<group>"; };
+		4CDDF8EA20182AD1003CA339 /* BookmarksListFolder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookmarksListFolder@3x.png"; sourceTree = "<group>"; };
+		4CDDF8EC201831FB003CA339 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				4CC4964020170A7800D5AEAA /* AppDelegate.swift */,
+				4CDDF8E0201829B3003CA339 /* BookmarksListFavoritesFolder@2x.png */,
 				4CC4964220170A7800D5AEAA /* ViewController.swift */,
+				4CDDF8E4201829DC003CA339 /* BookmarksListFavoritesFolder@3x.png */,
+				4CDDF8EA20182AD1003CA339 /* BookmarksListFolder@3x.png */,
+				4CDDF8E2201829C0003CA339 /* FindOnPage@2x.png */,
+				4CDDF8E820182ABA003CA339 /* BookmarksListFolder@2x.png */,
+				4CDDF8E6201829EF003CA339 /* FindOnPage@3x.png */,
 				4CC4964420170A7800D5AEAA /* Main.storyboard */,
 				4CC4964720170A7800D5AEAA /* Assets.xcassets */,
 				4CC4964920170A7800D5AEAA /* LaunchScreen.storyboard */,
 				4CC4964C20170A7800D5AEAA /* Info.plist */,
+				4CDDF8EC201831FB003CA339 /* RecordViewController.swift */,
 			);
 			path = text;
 			sourceTree = "<group>";
@@ -123,7 +144,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDDF8E920182ABA003CA339 /* BookmarksListFolder@2x.png in Resources */,
+				4CDDF8E7201829EF003CA339 /* FindOnPage@3x.png in Resources */,
+				4CDDF8E1201829B3003CA339 /* BookmarksListFavoritesFolder@2x.png in Resources */,
+				4CDDF8EB20182AD1003CA339 /* BookmarksListFolder@3x.png in Resources */,
+				4CDDF8E3201829C0003CA339 /* FindOnPage@2x.png in Resources */,
 				4CC4964B20170A7800D5AEAA /* LaunchScreen.storyboard in Resources */,
+				4CDDF8E5201829DC003CA339 /* BookmarksListFavoritesFolder@3x.png in Resources */,
 				4CC4964820170A7800D5AEAA /* Assets.xcassets in Resources */,
 				4CC4964620170A7800D5AEAA /* Main.storyboard in Resources */,
 			);
@@ -136,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDDF8ED201831FB003CA339 /* RecordViewController.swift in Sources */,
 				4CC4964320170A7800D5AEAA /* ViewController.swift in Sources */,
 				4CC4964120170A7800D5AEAA /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +327,7 @@
 				4CC4965120170A7800D5AEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
