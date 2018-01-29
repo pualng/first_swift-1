@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC5B796201870CE0091337A /* QueryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC5B795201870CE0091337A /* QueryTableViewController.swift */; };
 		4CC4964120170A7800D5AEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4964020170A7800D5AEAA /* AppDelegate.swift */; };
 		4CC4964320170A7800D5AEAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4964220170A7800D5AEAA /* ViewController.swift */; };
 		4CC4964620170A7800D5AEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4964420170A7800D5AEAA /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EC5B795201870CE0091337A /* QueryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryTableViewController.swift; sourceTree = "<group>"; };
 		4CC4963D20170A7800D5AEAA /* text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = text.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC4964020170A7800D5AEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC4964220170A7800D5AEAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				4CC4964920170A7800D5AEAA /* LaunchScreen.storyboard */,
 				4CC4964C20170A7800D5AEAA /* Info.plist */,
 				4CDDF8EC201831FB003CA339 /* RecordViewController.swift */,
+				1EC5B795201870CE0091337A /* QueryTableViewController.swift */,
 			);
 			path = text;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				4CDDF8ED201831FB003CA339 /* RecordViewController.swift in Sources */,
 				4CC4964320170A7800D5AEAA /* ViewController.swift in Sources */,
+				1EC5B796201870CE0091337A /* QueryTableViewController.swift in Sources */,
 				4CC4964120170A7800D5AEAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
